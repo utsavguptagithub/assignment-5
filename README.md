@@ -40,18 +40,19 @@ Q3. Write a program to print the first N natural numbers in reverse order
 
 code:-
   #include<stdio.h>
-    int main()
+int main()
 {
-    int i =1,n;
+    int n;
     printf("enter the number");
     scanf("%d",&n);
-    while(i>=n)
+     n=n;
+    while(n>0)
     {
-        printf("\n %d ",i);
-        i--;
+        printf(" %d ",n);
+        n--;
     }
 }
-  
+
   
   Q4.Write a program to print the first N odd natural numbers
   
@@ -71,7 +72,20 @@ code:-
 
 Q5.Write a program to print the first N odd natural numbers in reverse order.
 
- code:- 
+ code:- #include<stdio.h>
+int main()
+{
+    int n;
+    printf("enter the number");
+    scanf("%d",&n);
+     n=n;
+    while(n>0)
+    {
+        printf(" %d ",n*2-1);
+        n--;
+    }
+}
+
  
  
  
@@ -98,20 +112,20 @@ Q7.  Write a program to print the first N even natural numbers in reverse order
 
 
  code :-
-      #include<stdio.h>
-       int main()
+     #include<stdio.h>
+int main()
 {
-    int i=i,n;
+    int n;
     printf("enter the number");
     scanf("%d",&n);
-
-    while(i>=10)
+     n=n;
+    while(n>0)
     {
-        printf("\n %d ",i*2);
-        i--;
+        printf(" %d ",n*2);
+        n--;
     }
 }
-    
+
     
     Q8. Write a program to print squares of the first N natural numbers
     
